@@ -1,0 +1,21 @@
+
+@import "./base.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .layout {
+    background-color: darkolivegreen ;
+} 
+
+.root {
+    @apply h-full mx-auto;
+    max-width: 2460px;
+}  */
+
+@layer components {
+.fit {
+    min-height: calc(100vh - 88px);
+}
+}
